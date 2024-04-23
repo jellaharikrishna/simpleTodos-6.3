@@ -1,0 +1,24 @@
+.bg-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  font-family: Roboto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+.simpletodos-container {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  width: 800px;
+}
+.heading {
+  color: #ff8542;
+  text-align: center;
+}
+.todos-card-container {
+  list-style-type: none;
+}
