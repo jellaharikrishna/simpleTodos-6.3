@@ -14,11 +14,40 @@
   margin: 20px;
   border-radius: 10px;
   width: 800px;
+  display: flex;
+  flex-direction: column;
 }
 .heading {
   color: #ff8542;
   text-align: center;
 }
+.add-todo-card {
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid #ff0b37;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.add-todo-text {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.add-todo-btn {
+  height: 23px;
+  width: 60px;
+  color: white;
+  background-color: #ff0b37;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
 .todos-card-container {
   list-style-type: none;
+  padding: 0;
 }

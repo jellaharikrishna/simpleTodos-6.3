@@ -2,8 +2,52 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.text-btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.check-box {
+  height: 15px;
+  width: 15px;
+}
+
+.edit-input {
+  font-family: Roboto;
+  height: 25px;
+  width: 80%;
+  margin-left: 25px;
+  font-size: 16px;
+  padding: 5px;
+  border-style: none;
+  outline: none;
+}
+.save-edit-btn {
+  margin-right: 15px;
+  height: 25px;
+  width: 60px;
+  color: #ff0b37;
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-label-div {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.title {
   font-family: Roboto;
 }
+
 .delete-button {
   height: 25px;
   width: 60px;
